@@ -8,7 +8,8 @@ public class E05OperatorExample {
 		System.out.println(2 + 3);
 		System.out.println(2 - 3);
 		System.out.println(2 * 3);
-		System.out.println(2 / 3);
+		double divi = 2.0/3.0;
+		System.out.println(divi);
 		System.out.println(2 == 3);
 		System.out.println(2 != 3);
 	}

@@ -14,7 +14,7 @@ public class E02StringConcatenation {
 		boolean won = false;
 		System.out.println("Won? " + won);
 		won = true;
-		System.out.println("Won? " + won);
+		System.out.println("Won? " + won + "!");
 
 		String name = "Jose";
 		System.out.println("Hi " + name);

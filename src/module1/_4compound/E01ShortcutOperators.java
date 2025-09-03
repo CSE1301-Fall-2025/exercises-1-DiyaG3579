@@ -10,10 +10,11 @@ public class E01ShortcutOperators {
 		int score = 0;
 		System.out.println(score);
 		score++;
+		score++;
 		System.out.println(score);
-		score *= 2;
+		score *= 3;
 		System.out.println(score);
-		int penalty = 5;
+		int penalty = 6;
 		score -= penalty/2;
 		System.out.println(score);
 	}

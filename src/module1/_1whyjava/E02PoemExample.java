@@ -5,5 +5,7 @@ public class E02PoemExample {
 	public static void main(String[] args) {
 		System.out.println("Roses are red,");
 		System.out.println("Violets are blue,");
+		System.out.println("Assignment 1 was Confusing");
+		System.out.println("Let's see if this is too");
 	}
 }

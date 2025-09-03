@@ -8,5 +8,6 @@ public class E07ModExample {
 		System.out.println(3 % 4);
 		System.out.println(8 % 2);
 		System.out.println(9 % 2);
+	//Finds the reminders (Had to look that one up)
 	}
 }

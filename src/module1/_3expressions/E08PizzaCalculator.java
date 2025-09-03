@@ -5,8 +5,11 @@ public class E08PizzaCalculator {
 
 	//https://131text.com/ns/books/published/csjava/Module1-Types-and-Names/topic-1-4-assignment.html#flowcharting
 	public static void main(String[] args) {
-		int pizzaSlices, numPeople, slicesPerPerson, leftoverSlices;
-		//add your code
+
+		int pizzaSlices = 40;
+		int numPeople = 10;
+		int slicesPerPerson = 3;;
+		int leftoverSlices = pizzaSlices - (numPeople * slicesPerPerson);
 
 	}
 

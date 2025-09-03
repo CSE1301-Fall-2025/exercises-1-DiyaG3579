@@ -8,7 +8,7 @@ public class E04UpdateScore {
 		System.out.println(score);
 		score = score + 1;
 		System.out.println(score);
-		score = score + 1;
+		score = score + 2;
 		System.out.println(score);
 	}
 }
