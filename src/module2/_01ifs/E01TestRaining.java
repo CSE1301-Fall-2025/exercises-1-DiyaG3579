@@ -9,6 +9,6 @@ public class E01TestRaining {
 		if (isRaining) {
 			System.out.println("Take an umbrella!");
 		}
-		System.out.println("Drive carefully");
+		System.out.println("Drive carefully!");
 	}
 }

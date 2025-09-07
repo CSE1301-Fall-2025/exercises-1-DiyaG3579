@@ -6,9 +6,8 @@ public class E02ForLoopFromWhile {
 	//as the given while loop
 	public static void main(String[] args) {
 		int count = 5;
-		while (count <= 10) {
+		for(count = 5; count <=10; count++) {
 			System.out.println(count);
-			count++;
 		}
 	}
 }

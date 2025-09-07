@@ -12,6 +12,6 @@ public class E01Chores {
 		}
 		else {
 			System.out.println("No, you can't go out");
-		}
+		}	
 	}
 }

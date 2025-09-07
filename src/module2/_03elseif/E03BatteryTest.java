@@ -7,8 +7,15 @@ public class E03BatteryTest {
 	//"unplug your phone!" if it is above 100,
 	//and "All okay!" otherwise. Test all three situations.
 	public static void main(String[] args) {
-		int battery = 60;
-
+		int battery = 13;
+	if (battery <=20) {
+		System.out.println("Charge Your Phone");
+	}
+	else if (battery > 20 && battery <= 100) {
 		System.out.println("All okay!");
+	}
+	else {
+		System.out.println("Unplug Your Phone");
+	}
 	}
 }

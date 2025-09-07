@@ -7,8 +7,9 @@ public class E01DriversTest {
 	//Can you change the code to allow you to acquire a license at age 16?
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		System.out.println("How old are you?");
 		int age = scan.nextInt();
-		if (age >= 18) {
+		if (age >= 16) {
 			System.out.println("You can get a driver's license in most states!");
 		}
 		else {

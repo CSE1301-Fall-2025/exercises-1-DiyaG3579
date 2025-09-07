@@ -11,19 +11,18 @@ public class E02IfDebug {
 		if (score >= 90) {
 			grade = "A";
 		}
-		if (score >= 80) {
+		else if (score >= 80 && score < 90) {
 			grade = "B";
 		}
-		if (score >= 70) {
+		else if (score >= 70 && score < 80) {
 			grade = "C";
 		}
-		if (score >= 60) {
+		else if (score >= 60 && score < 70) {
 			grade = "D";
 		}
 		else {
 			grade = "F";
 		}
-
 		System.out.println(grade);
 	}
 }

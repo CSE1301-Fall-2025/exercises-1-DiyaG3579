@@ -6,7 +6,7 @@ public class E02Transportation {
 	//for the program to print "You can go out"?
 	public static void main(String[] args) {
 		boolean walking = false;
-		boolean carIsAvailable = false;
+		boolean carIsAvailable = true;
 		if (walking || carIsAvailable) {
 			System.out.println("You can go out");
 		}
